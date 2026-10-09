@@ -1,5 +1,19 @@
-UL {color: red;}
+UL {
+    color: green;
+}
+
 
 h1 {
-h1{background-color: rgb(19, 32, 113); color: aqua}
+    color: rgb(19, 32, 113);
 } 
+
+p {
+    color: greenyellow; background-color: black; padding: 50;
+}
+
+h2  {
+    color: green;
+}
+
+h3 { color: green;
+}
