@@ -1,0 +1,21 @@
+body {
+    background: #ffdff9;
+    padding: 50px;
+}
+
+
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
+
+
+
+h1,
+h2,
+h3 {
+    color: #d300a2;
+    font-family: sans-serif;
+}
+
+img {
+    width: 200px;
+}
