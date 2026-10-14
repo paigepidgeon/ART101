@@ -1,5 +1,5 @@
 body {
-    background: #c6212c;
+    background: hsl(323, 100%, 91%);
     padding: 50px;
 }
 
@@ -15,10 +15,19 @@ img {
 h1,
 h2,
 h3 {
-    color: #00000e;
+    color: #57143e;
     font-family: sans-serif;
+}
+ 
+img {
+  border: 5px outset #98284d;
 }
 
 img {
     width: 200px;
 }
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+p {text-align: center;}
