@@ -1,11 +1,8 @@
 body {
-    background: hsl(323, 100%, 91%);
+    background: #0c0a0f;
     padding: 50px;
 }
 
-img {
-    width: 200px;
-}
 
     from { transform: translateX(-100%); }
     to { transform: translateX(100%); }
@@ -14,8 +11,11 @@ img {
 
 h1,
 h2,
-h3 {
-    color: #57143e;
+h3,
+p, 
+p
+{
+    color: hsl(248, 100%, 97%);
     font-family: sans-serif;
 }
  
@@ -23,11 +23,14 @@ img {
   border: 5px outset #98284d;
 }
 
-img {
-    width: 200px;
+img
+ {
+    width: 300px;
+    align-items: center
 }
 
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
 p {text-align: center;}
+
