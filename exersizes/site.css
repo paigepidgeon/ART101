@@ -1,6 +1,7 @@
 body {
     background: #ffdff9;
     padding: 50px;
+   
 }
 
 
@@ -14,9 +15,13 @@ body {
 
 h1,
 h2,
-h3 {
+p,
+body,
+h3
+{
     color: #d300a2;
     font-family: sans-serif;
+    
 }
 
 img {
@@ -33,7 +38,7 @@ img {
 #introduction {
     background: #f3f7ff;
     padding: 20px;
-    border-left: 6px solid #1d1184;
+    border-left: 6px solid #e276bc;
     flex: 2;
 }
 
@@ -45,4 +50,37 @@ img {
 #introduction p {
     font-size: 120%;
     line-height: 1.5;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+
+.profile p {
+    font-size: 90%;
+}
+
+.navigation {
+    background: #fff7e8;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: #1d1184;
+    font-weight: bold;
 }

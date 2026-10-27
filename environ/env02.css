@@ -1,0 +1,35 @@
+body {
+  background-image: url("spiderwebackground.png");
+background-repeat: no-repeat;
+}
+
+.text-box {
+    background: white; 
+    padding: 15px; 
+    margin: 15px 0; 
+    display: inline-block; 
+}
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+}
+
+#spider {
+    transition: transform 1s ease-in-out; 
+}
+
+#spider:hover {
+    transform: rotate(360deg);
+    animation: spin 1s linear; 
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
